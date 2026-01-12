@@ -9,6 +9,16 @@ public class ToDoListGui extends JFrame {
         setLocationRelativeTo(null);
         setResizable(false);
         setLayout(null);
+
+        addGuiComponents();
     }
 
+    private void addGuiComponents(){
+        JLabel bannerLabel = new JLabel("To Do List");
+        bannerLabel.setBounds(
+                (CommonConstants.GUI_SIZE.width - bannerLabel.getPreferredSize().width)/2,
+                15, CommonConstants.BANNER_SIZE.width, CommonConstants.BANNER_SIZE.height
+        );
+        this.getContentPane().add(bannerLabel);
+    }
 }
