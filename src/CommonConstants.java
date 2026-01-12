@@ -8,5 +8,7 @@ public class CommonConstants {
 
     public static final Dimension TASKPANEL_SIZE = new Dimension(GUI_SIZE.width - 30, GUI_SIZE.height - 175);
 
+    public static final Dimension ADDTASKBUTTON_SIZE = new Dimension(GUI_SIZE.width, 50);
+
 
 }
